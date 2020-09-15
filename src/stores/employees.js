@@ -45,7 +45,7 @@ const employees = [
     {
         name: 'Theodore "Teddy" Balistreri',
         title: 'Lead Growth Envisioneer',
-        nick: 'Odd Job',
+        nick: 'Royal T',
         bioStart: '<b>Champion. Overcomer.</b>',
         bio:
             'Teddy has an uncanny ability to make friends everywhere he goes.<br><br>He understands better than anyone the power that comes when you start seeing problems as opportunities. After losing his leg as an adult, he fought and earned a story of <b>comeback</b>, overcoming, grit, and <b>determination</b>. He brings that same drive and intensity to benefitting those around him.',
