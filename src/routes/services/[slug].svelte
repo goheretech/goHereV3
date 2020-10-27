@@ -97,7 +97,7 @@ import Bottom from "../../components/Bottom.svelte";
 
 <svelte:head>
   <title>{serv.name}</title>
-  <meta name="description" content={serv.metaDesc} />
+  <meta name="description" content={serv.desc} />
 </svelte:head>
 <!-- <div class="fullServ">
   <div class="heroish">
