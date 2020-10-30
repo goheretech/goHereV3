@@ -23,57 +23,55 @@
   import Section from "./../../components/Section.svelte";
   import ServiceList from "./_ServiceList.svelte";
   import AltPage from "./_AltPage.svelte";
-import Bottom from "../../components/Bottom.svelte";
+  import Bottom from "../../components/Bottom.svelte";
 
-  let content = 
-        {
-            title:
-                '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> for .',
-            p:
-                "",
+  let content = {
+    title:
+      '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> for .',
+    p: "",
 
-            button: 'Make the connection',
-            buttonHref: 'cta',
-            invert: true,
-            color1: 'red',
-            color2: 'purple',
-            sub: 'reach out',
-            hero: ''
-        };
+    button: "Make the connection",
+    buttonHref: "cta",
+    invert: true,
+    color1: "red",
+    color2: "purple",
+    sub: "reach out",
+    hero: ""
+  };
 
-       $: content = 
-        {
-            title:
-                '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> to '+ serv.section+'.',
-            p:
-                serv.desc,
+  $: content = {
+    title:
+      '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> to ' +
+      serv.section +
+      ".",
+    p: serv.desc,
 
-            button: 'Make the connection',
-            buttonHref: 'cta',
-            invert: true,
-            color1: 'red',
-            color2: 'purple',
-            sub: 'reach out',
-            hero: serv.name
-        };
-  
+    button: "Make the connection",
+    buttonHref: "cta",
+    invert: true,
+    color1: "red",
+    color2: "purple",
+    sub: "reach out",
+    hero: serv.name
+  };
+
   onMount(() => {
     loaded.set(true);
-    content = 
-        {
-            title:
-                '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> to '+ serv.section+'.',
-            p:
-                serv.desc,
+    content = {
+      title:
+        '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> to ' +
+        serv.section +
+        ".",
+      p: serv.desc,
 
-            button: 'Make the connection',
-            buttonHref: 'cta',
-            invert: true,
-            color1: 'red',
-            color2: 'purple',
-            sub: 'reach out',
-            hero: serv.name
-        };
+      button: "Make the connection",
+      buttonHref: "cta",
+      invert: true,
+      color1: "red",
+      color2: "purple",
+      sub: "reach out",
+      hero: serv.name
+    };
   });
 </script>
 
@@ -95,9 +93,6 @@ import Bottom from "../../components/Bottom.svelte";
   }
 </style>
 
-<svelte:head>
-  <title>{serv.name}</title>
-</svelte:head>
 <!-- <div class="fullServ">
   <div class="heroish">
     <h1>{serv.name}</h1>
@@ -107,16 +102,22 @@ import Bottom from "../../components/Bottom.svelte";
   </div>
   <ServiceList />
 </div>-->
+<svelte:head>
+  <title>{serv.mTitle}</title>
+  <meta name="description" content={serv.mDesc} />
+</svelte:head>
 <TransitionWrapper>
-<Hero heading="" headingSub="{content.hero}" />
+  <Hero heading="" headingSub={content.hero} />
 
-{#if serv.detailed == true}
+  <!-- {#if serv.detailed == true}
     <AltPage {serv}/>
 {:else}
   <Section {...content}/>
-{/if}
+{/if} -->
 
-<ServiceList/>
+  <Section {...content} />
 
-<CTA />
+  <ServiceList />
+
+  <CTA />
 </TransitionWrapper>

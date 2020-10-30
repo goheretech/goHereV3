@@ -5,6 +5,8 @@
 
   let show = true;
   let b;
+
+  let showButton = false;
   let newP = 5;
   onMount(() => {
     b = document.getElementById("perc");
@@ -32,13 +34,15 @@
   }
 
   function reload() {
-    
-      setTimeout(function () {
-        if ($loaded != true){
-        location.reload();
-        }
-      }, 3000);
-    
+    setTimeout(function() {
+      if ($loaded != true) {
+        showButton = true;
+      }
+    }, 1000);
+  }
+
+  function skipLoad() {
+    loaded.set(true);
   }
 </script>
 
@@ -72,12 +76,20 @@
     background: transparent;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.07);
     border-radius: 2px;
+    position: relative;
   }
   #perc {
     width: 5%;
     height: 100%;
     background: white;
     border-radius: 2px;
+  }
+
+  .bt {
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    z-indx: 10000;
   }
 </style>
 
@@ -96,6 +108,9 @@
 
     <div class="bar">
       <div id="perc" class="colorRotate" />
+      {#if showButton == true}
+        <button id="bt" on:click={skipLoad}>Skip</button>
+      {/if}
     </div>
   </div>
 {/if}

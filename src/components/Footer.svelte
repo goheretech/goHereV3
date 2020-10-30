@@ -1,6 +1,6 @@
 <script>
   import { global } from "./../stores/content.js";
-  import {serv} from './../routes/services/_services.js'
+  import { serv } from "./../routes/services/_services.js";
   import { onMount } from "svelte";
 
   export let posts = [];
@@ -17,7 +17,7 @@
 <style>
   .footer {
     background: black;
-    padding: 10vh 10vw;
+    padding: 5vh 3vw;
     color: white;
     z-index: 9999;
     position: relative;
@@ -46,13 +46,17 @@
     margin-top: 20px;
   }
 
-  .grid{
+  .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 1px 1px;
     justify-items: stretch;
     align-items: start;
+  }
+
+  li {
+    padding-right: 10px;
   }
 </style>
 
@@ -91,7 +95,7 @@
         </li>
       </ul>
     </div>
-    <div class="footer_col footer_mid">
+    <!-- <div class="footer_col footer_mid">
       <h3>Tools</h3>
       <ul>
         <li>
@@ -110,18 +114,18 @@
         </li>
 
       </ul>
-    </div>
+    </div> -->
 
     <div class="footer_col footer_mid">
       <h3>Services</h3>
       <ul class="grid">
         {#each serv as post, i}
-            <li>
-              <a href="/services/{post.slug}">{post.name}</a>
-            </li>
+          <li>
+            <a href="/services/{post.slug}">{post.name}</a>
+          </li>
         {/each}
       </ul>
-    </div> 
+    </div>
     <div class="footer_col footer_right">
       <h3>Insights</h3>
       <ul>
