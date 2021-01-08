@@ -7,7 +7,7 @@ export const global = {
 export const home = {
     title: 'goHere® | Augment Your Reality™ | Miami Beach, FL',
     metaDesc:
-        'Technology designed for you.  goHere has solutions that are built to drive your business into the future. Companies who proactively embrace the power of technology for business in the digital age will disrupt those who wait too long.',
+        'Bring the market versatility of Augmented Reality to your business, products, brand, people, & spaces.',
     h1: 'Create',
     h1Sub: 'Solutions',
     sections: [
