@@ -61,7 +61,7 @@ export const home = {
     ],
 };
 export const who = {
-    title: 'About goHere | Technology Solutions | Brand Identity',
+    title: 'About goHere® | Technology Solutions | Brand Identity',
     metaDesc:
         'Team of innovative consultants and creators focused on technology based solutions, brand identity through interactive advertising including AR integration, web development, content strategy, full-stack development, ui ux, digital marketing, and creative direction.',
     h1: 'Creative',
@@ -110,7 +110,7 @@ export const what = {
     },
 };
 export const work = {
-    title: 'goHere Partners and Work',
+    title: 'goHere® Partners and Work',
     metaDesc:
         'Whether you’re a startup, nonprofit, or a household brand, goHere has solutions for you. We select clients we resonate with, bringing passion and inspiration to any project.',
     h1: 'The',
@@ -135,7 +135,7 @@ export const work = {
     },
 };
 export const contact = {
-    title: 'goHere for Partnerships',
+    title: 'goHere® for Partnerships',
     metaDesc:
         'goHere and discover the power of creative solutions for your next project. +1 (305) 999 5595',
     h1: 'Call',
@@ -153,7 +153,7 @@ export const contact = {
     ],
 };
 export const insights = {
-    title: 'goHere | Incredible Technology Insights',
+    title: 'goHere® | Incredible Technology Insights',
     metaDesc:
         'goHere for the latest news in emerging technologies. Learn something new about blockchain, machine learning, brand identity, AR, VR, etc.',
     h1: 'Incredible',
