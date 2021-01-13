@@ -103,8 +103,8 @@
   <ServiceList />
 </div>-->
 <svelte:head>
-  <title>{serv.mTitle}</title>
-  <meta name="description" content={serv.mDesc} />
+  <title>{serv.titleTag}</title>
+  <meta name="description" content={serv.metaDesc} />
 </svelte:head>
 <TransitionWrapper>
   <Hero heading="" headingSub={content.hero} />
