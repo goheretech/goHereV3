@@ -5,7 +5,7 @@ export const global = {
     email: 'help@gohere.tech',
 };
 export const home = {
-    title: 'goHere® | Augment Your Reality™ | Miami Beach, FL',
+    title: 'goHere® | Augment Your Reality™ | Mixed Reality',
     metaDesc:
         'Bring the market versatility of Augmented Reality to your business, products, brand, people, & spaces.',
     h1: 'Create',
