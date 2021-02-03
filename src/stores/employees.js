@@ -12,7 +12,7 @@ const employees = [
     },
     {
         name: 'Meghan Breinig',
-        title: 'Lead Optimization Envisioneer',
+        title: 'Lead Growth Envisioneer',
         nick: 'The Meg',
         bioStart:
             '<b>Power. Under. Pressure.</b><br/> <br>Meghan is one of those <b>unstoppable</b> people who can rise to every occasion and handle it with a calm, unphased <b>energy.</b>',
@@ -43,13 +43,13 @@ const employees = [
         flipped: true,
     },
     {
-        name: 'Theodore "Teddy" Balistreri',
-        title: 'Lead Growth Envisioneer',
-        nick: 'Royal T',
-        bioStart: '<b>Champion. Overcomer.</b>',
+        name: 'Jonathan "Johnny" Reid',
+        title: 'Lead Optimization Envisioneer',
+        nick: 'ET',
+        bioStart: '<b>Fluent in machine.</b>',
         bio:
-            'Teddy has an uncanny ability to make friends everywhere he goes.<br><br>He understands better than anyone the power that comes when you start seeing problems as opportunities. After losing his leg as an adult, he fought and earned a story of <b>comeback</b>, overcoming, grit, and <b>determination</b>. He brings that same drive and intensity to benefitting those around him.',
-        picture: '/img/headshots/ted.png',
+            'As a graduate of Michigan State Broad College of Business, Johnny is our translator between people and machines.<br><br>Johnny’s solution-oriented mindset allows him to rise to every occasion and handle it with a calm, unfazed energy. His aptitude for human psychology combined with his fluency in communicating with software systems enables him to look beyond data and best practices to create common sense, customized action plans that get results.',
+        picture: '/img/headshots/johnny.png',
         flipped: false,
     },
     {

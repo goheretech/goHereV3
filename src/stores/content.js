@@ -5,9 +5,9 @@ export const global = {
     email: 'help@gohere.tech',
 };
 export const home = {
-    title: 'goHere® | Augment Your Reality™ | Mixed Reality',
+    title: 'goHere® | Mixed Reality Consultants | Augment Your Reality™',
     metaDesc:
-        'Bring the market versatility of Augmented Reality to your business, products, brand, people, & spaces.',
+        'Fueled by creativity. Driven by excellence. We are a creative technology agency specializing in Mixed Reality and Augmented Reality.',
     h1: 'Create',
     h1Sub: 'Solutions',
     sections: [
@@ -61,9 +61,9 @@ export const home = {
     ],
 };
 export const who = {
-    title: 'About goHere® | Technology Solutions | Brand Identity',
+    title: 'About goHere® | Experts in Mixed Reality',
     metaDesc:
-        'Team of innovative consultants and creators focused on technology based solutions, brand identity through interactive advertising including AR integration, web development, content strategy, full-stack development, ui ux, digital marketing, and creative direction.',
+        'Team of innovative consultants and creators focused on Mixed Reality and Augmented Reality solutions for the Industry 4.0 era.',
     h1: 'Creative',
     h1Sub: 'Envisioneers',
     section: [
@@ -87,9 +87,9 @@ export const who = {
     },
 };
 export const what = {
-    title: 'goHere | Powerful Systems | Brand Equity and Experiences',
+    title: 'goHere® | Mixed Reality | Augmented Reality',
     metaDesc:
-        ' Lead your industry with cutting edge technology. Looking to launch your company into the world of virtual  and augmented reality? goHere. Have a completely out there idea you’re not even sure is possible? goHere. Let’s chart the new world together. ',
+        ' Lead the Industry 4.0 revolution with cutting edge technology. Looking to launch your company into the world of Mixed Reality? goHere®.',
     h1: 'Powerful',
     h1Sub: 'Outcomes',
     section: [
@@ -110,9 +110,9 @@ export const what = {
     },
 };
 export const work = {
-    title: 'goHere® Partners and Work',
+    title: 'goHere® Partners and UI/UX Portfolio',
     metaDesc:
-        'Whether you’re a startup, nonprofit, or a household brand, goHere has solutions for you. We select clients we resonate with, bringing passion and inspiration to any project.',
+        'We select partners we resonate with, bringing passion and inspiration to any project. View our user experience and customer experience examples here.',
     h1: 'The',
     h1Sub: 'Vault',
     section: [
@@ -135,9 +135,9 @@ export const work = {
     },
 };
 export const contact = {
-    title: 'goHere® for Partnerships',
+    title: 'goHere® for Strategic Partnerships',
     metaDesc:
-        'goHere and discover the power of creative solutions for your next project. +1 (305) 999 5595',
+        'Discover the power of Mixed Reality applications for your enterprise. Prepare for the fourth industrial revolution. +1 (305) 999 5595',
     h1: 'Call',
     h1Sub: 'Today',
     section: [
@@ -155,7 +155,7 @@ export const contact = {
 export const insights = {
     title: 'goHere® | Incredible Technology Insights',
     metaDesc:
-        'goHere for the latest news in emerging technologies. Learn something new about blockchain, machine learning, brand identity, AR, VR, etc.',
+        'goHere® to learn something new about Mixed Reality, Augmented Reality, and Ad Tech with our Insights.',
     h1: 'Incredible',
     h1Sub: 'Insights',
     section: [
@@ -189,36 +189,28 @@ export const cta = {
 };
 
 export const tags = [
+    'mixed reality',
+    'hololens 2',
+    'brand equity',
+    'virtual reality',
+    'augmented reality',
     'problem solving',
     'web development',
     'ui/ux',
-    'platinum level hosting',
-    'white Labeling',
-    'Conversion Rate Optimization',
-    'Lead Generation',
-    'Creative Direction',
-    'Content Strategy',
-    'Digital Marketing',
-    'SEO',
-    'Asset Creation',
-    'Digital Communications',
-    'PPC Advertising',
-    'Public Relations',
-    'Brand Identity',
-    'Reputation Management',
-    'GTM Strategy',
-    'System Auditing',
-    'Application Integration',
-    'Creative Solutions',
-    'Virtual Reality',
-    'Machine Learning',
-    'Edge Computing',
-    'Blockchain Technologies',
-    'Technology Solutions',
-    'Mobile First Design',
-    'App Development',
-    'Business Consulting',
-    'Full-Stack Development',
-    'crisis management',
+    'customer experience',
+    'management consulting',
+    'industry 4.0',
+    'public realtions',
+    'ad tech',
+    'extended reality',
+    '3d assets',
+    'system auditing',
+    'hyperautomation',
+    'creative solutions',
+    'internet of things',
+    'machine learning',
+    'edge computing',
+    'mobile first design',
+    'technology solutions',
     'projection mapping',
 ];
