@@ -1,6 +1,6 @@
 export const serv = [
     {
-        name: 'Full-Stack Development',
+        name: 'Full Stack Development',
         section: 'Build',
         ico: 'fas fa-archway',
         slug: 'full-stack-development',
