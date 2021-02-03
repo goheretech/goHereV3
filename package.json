@@ -1,6 +1,6 @@
 {
   "name": "gohere",
-  "description": "goHere",
+  "description": "goHere Site",
   "version": "3.0.0",
   "scripts": {
     "dev": "sapper dev",
