@@ -73,30 +73,26 @@
       for (let i = 0; i < sections.length; i++) {
         sections[i].classList.remove("showing");
       }
-    } else if (per < 20) {
+    } else if (per < 25) {
       for (let i = 0; i < sections.length; i++) {
         sections[i].classList.remove("showing");
       }
       sections[0].classList.add("showing");
-    } else if (per < 40) {
+    } else if (per < 50) {
       for (let i = 0; i < sections.length; i++) {
         sections[i].classList.remove("showing");
       }
       sections[1].classList.add("showing");
-    } else if (per < 60) {
+    } else if (per < 75) {
       for (let i = 0; i < sections.length; i++) {
         sections[i].classList.remove("showing");
       }
       sections[2].classList.add("showing");
-    } else if (per < 80) {
-      for (let i = 0; i < sections.length; i++) {
-        sections[i].classList.remove("showing");
-      }
-      sections[3].classList.add("showing");
     } else if (per < 110) {
       for (let i = 0; i < sections.length; i++) {
         sections[i].classList.remove("showing");
       }
+      sections[3].classList.add("showing");
     }
   }
 </script>
@@ -104,7 +100,7 @@
 <style>
   #rail {
     width: 100vw;
-    height: 400vh;
+    height: 300vh;
     position: relative;
     padding: 100px 0px;
     margin-top: -120px;

@@ -9,6 +9,7 @@
   });
   let date =
     postedOn.getMonth() +
+    1 +
     "-" +
     postedOn.getDate() +
     "-" +

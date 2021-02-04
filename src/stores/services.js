@@ -94,36 +94,6 @@ export const services = [
         color1: '#D24477',
         color2: 'rgb(63, 94, 171)',
     },
-    {
-        name: 'Impress',
-        subhead: 'The power of technology. <br>Taken further.',
-        p:
-            'Lead your industry with cutting edge technology. Looking to launch your company into the world of virtual reality? goHere. Want to explore what augmented reality can do for your business? goHere. Have a completely out there idea you’re not even sure is possible? goHere. Let’s chart the new world together.',
-        li: [
-            {
-                name: 'Virtual Reality',
-                ico: 'fas fa-sitemap',
-            },
-            {
-                name: 'Augmented Reality',
-                ico: 'fas fa-laptop-code',
-            },
-            {
-                name: 'Machine Learning',
-                ico: 'fas fa-user-plus',
-            },
-            { name: 'Edge Computing', ico: 'fas fa-hdd' },
-            {
-                name: 'Blockchain Technology',
-                ico: 'fab fa-google',
-            },
-        ],
-        icon: 'img/svg/DataAnalysis.svg',
-
-        color1: '#F2C72B',
-
-        color2: 'rgb(244, 126, 185)',
-    },
 ];
 
 export const tech = [

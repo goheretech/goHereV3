@@ -18,6 +18,7 @@
 <script>
   import TransitionWrapper from "./../../components/TransitionWrapper.svelte";
   import { onMount } from "svelte";
+  import SvelteSeo from "svelte-seo";
   export let pagedata;
   let date = pagedata.published_at;
   let formatedDate;
@@ -45,7 +46,9 @@
     const dayName = days[DD.getDay()];
     formatedDate = `${dayName}, ${d} ${m} ${y}`;
   }
+
   import { loaded } from "./../../stores/var.js";
+
   onMount(() => {
     loaded.set(true);
   });
@@ -145,8 +148,12 @@
 
 <svelte:head>
   <title>{pagedata.meta_title} | goHere Insights</title>
-  <meta name="Description" content={pagedata.meta_description} />
+  <meta name="description" content={pagedata.meta_description} />
+
 </svelte:head>
+
+<SvelteSeo
+  openGraph={{ title: pagedata.meta_title, description: pagedata.meta_description, type: 'article', url: 'https://www.gohere.tech/insights/' + pagedata.slug, article: { publishedTime: pagedata.published_at, modifiedTime: pagedata.updated_at, tags: ['Augmented Reality', 'Mixed Reality', 'goHere'] }, images: [{ url: pagedata.feature_image, alt: 'Augment your Reality | goHere AR/MR' }] }} />
 <TransitionWrapper>
   <div class="wrapper">
     <div class="inner">
