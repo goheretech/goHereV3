@@ -24,7 +24,7 @@ export const serv = [
     },
     {
         name: 'UI/UX',
-        section: 'Build',
+        section: 'Grow',
         ico: 'fas fa-laptop-code',
         slug: 'responsive-user-interface',
         titleTag: 'UI/UX Artists - goHere®',

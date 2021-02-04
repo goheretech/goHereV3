@@ -55,6 +55,9 @@
 <svelte:head>
   <title>{insights.title}</title>
   <meta name="description" content={insights.metaDesc} />
+  <meta property="og:title" content={insights.title} />
+  <meta property="og:description" content={insights.metaDesc} />
+  <meta property="og:image" content={insights.feature_image} />
 </svelte:head>
 <!-- <TransitionWrapper> -->
 <Hero heading={insights.h1} headingSub={insights.h1Sub} />
