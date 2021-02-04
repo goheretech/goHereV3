@@ -200,7 +200,7 @@ export const tags = [
     'customer experience',
     'management consulting',
     'industry 4.0',
-    'public realtions',
+    'public relations',
     'ad tech',
     'extended reality',
     '3d assets',
