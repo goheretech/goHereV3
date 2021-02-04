@@ -21,6 +21,7 @@
   import Post from "./../../components/Post.svelte";
   import CTA from "./../../components/CTA.svelte";
   import { loaded } from "./../../stores/var.js";
+  import SvelteSeo from "svelte-seo";
 
   export let posts;
   // const apiURL =
@@ -54,11 +55,13 @@
 
 <svelte:head>
   <title>{insights.title}</title>
-  <meta name="description" content={insights.metaDesc} />
-  <meta property="og:title" content={insights.title} />
-  <meta property="og:description" content={insights.metaDesc} />
-  <meta property="og:image" content={insights.feature_image} />
+  <meta name="description" content="" />
+  {insights.metaDesc}
 </svelte:head>
+
+<SvelteSeo
+  openGraph={{ title: insights.title, description: insights.metaDesc, url: 'https://www.gohere.tech/insights', type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
+
 <!-- <TransitionWrapper> -->
 <Hero heading={insights.h1} headingSub={insights.h1Sub} />
 

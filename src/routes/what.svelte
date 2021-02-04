@@ -5,6 +5,7 @@
   import Main from "./../components/services/Main.svelte";
   import CTA from "./../components/CTA.svelte";
   import TransitionWrapper from "../components/TransitionWrapper.svelte";
+  import SvelteSeo from "svelte-seo";
   let y;
 
   import { onMount } from "svelte";
@@ -26,6 +27,8 @@
   <title>{what.title}</title>
   <meta name="description" content={what.metaDesc} />
 </svelte:head>
+<SvelteSeo
+  openGraph={{ title: what.title, description: what.metaDesc, url: 'https://www.gohere.tech/insights', type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
 <!-- <svelte:window bind:scrollY={y}/> -->
 <TransitionWrapper>
   <Hero heading={what.h1} headingSub={what.h1Sub} />

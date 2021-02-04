@@ -24,6 +24,7 @@
   import ServiceList from "./_ServiceList.svelte";
   import AltPage from "./_AltPage.svelte";
   import Bottom from "../../components/Bottom.svelte";
+  import SvelteSeo from "svelte-seo";
 
   let content = {
     title:
@@ -106,6 +107,8 @@
   <title>{serv.titleTag}</title>
   <meta name="description" content={serv.metaDesc} />
 </svelte:head>
+<SvelteSeo
+  openGraph={{ title: serv.titleTag, description: serv.metaDesc, url: 'https://www.gohere.tech/services/' + serv.slug, type: 'website', images: [{ url: serv.seoImg, alt: 'goHere | ' + serv.name }] }} />
 
 <TransitionWrapper>
   <Hero heading="" headingSub={content.hero} />
