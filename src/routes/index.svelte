@@ -167,7 +167,7 @@
   <meta name="description" content={home.metaDesc} />
 </svelte:head>
 <SvelteSeo
-  openGraph={{ title: what.title, description: what.metaDesc, 
+  openGraph={{ title: home.title, description: home.metaDesc, 
     url: 'https://www.gohere.tech', 
     type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/3d-logo.png', alt: 'goHere® Logo - Mixed Reality - Augment Your Reality™' }] }} />
 <nav style="position:fixed; top:0;">

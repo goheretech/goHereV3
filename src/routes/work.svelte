@@ -25,7 +25,7 @@
   <meta name="description" content={work.metaDesc} />
 </svelte:head>
 <SvelteSeo
-  openGraph={{ title: what.title, description: what.metaDesc, 
+  openGraph={{ title: work.title, description: work.metaDesc, 
     url: 'https://www.gohere.tech/work', 
     type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mr-engine.jpg', alt: 'goHere® Portfolio' }] }} />
 <TransitionWrapper>

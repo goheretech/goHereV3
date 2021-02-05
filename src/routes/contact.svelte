@@ -23,7 +23,7 @@
   <meta name="description" content={contact.metaDesc} />
 </svelte:head>
 <SvelteSeo
-  openGraph={{ title: what.title, description: what.metaDesc, 
+  openGraph={{ title: contact.title, description: contact.metaDesc, 
     url: 'https://www.gohere.tech/contact', 
     type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed-reality-office.jpg', alt: 'goHere® Contact for Mixed Reality' }] }} />
 <TransitionWrapper>
