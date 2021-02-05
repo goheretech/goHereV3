@@ -30,7 +30,7 @@
 <SvelteSeo
   openGraph={{ title: what.title, description: what.metaDesc, 
     url: 'https://www.gohere.tech/what', 
-    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
+    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere® What is Mixed Reality' }] }} />
 <!-- <svelte:window bind:scrollY={y}/> -->
 <TransitionWrapper>
   <Hero heading={what.h1} headingSub={what.h1Sub} />

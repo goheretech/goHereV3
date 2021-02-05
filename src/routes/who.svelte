@@ -22,7 +22,7 @@
 </svelte:head>
 
 <SvelteSeo
-  openGraph={{ title: who.title, description: who.metaDesc, url: 'https://www.gohere.tech/who', type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
+  openGraph={{ title: who.title, description: who.metaDesc, url: 'https://www.gohere.tech/who', type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere About our Mixed Reality Experts' }] }} />
 <TransitionWrapper>
   <Hero heading={who.h1} headingSub={who.h1Sub} />
 
