@@ -5,6 +5,7 @@
   import New from "./../components/forms/New.svelte";
   import TransitionWrapper from "./../components/TransitionWrapper.svelte";
   import { onMount } from "svelte";
+  import SvelteSeo from "svelte-seo";
   import { loaded } from "./../stores/var.js";
   onMount(() => {
     loaded.set(true);
@@ -21,6 +22,10 @@
   <title>{contact.title}</title>
   <meta name="description" content={contact.metaDesc} />
 </svelte:head>
+<SvelteSeo
+  openGraph={{ title: what.title, description: what.metaDesc, 
+    url: 'https://www.gohere.tech/contact', 
+    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed-reality-office.jpg', alt: 'goHere® Contact for Mixed Reality' }] }} />
 <TransitionWrapper>
 
   <div class="coont">

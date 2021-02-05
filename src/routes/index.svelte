@@ -18,6 +18,7 @@
   import RandomText from "./../components/RandomText.svelte";
   import { showingCTA, scrollPer, loaded } from "./../stores/var.js";
   import Bottom from "./../components/Bottom.svelte";
+  import SvelteSeo from "svelte-seo";
 
   export let phase = 0;
   let displayMenu = false;
@@ -165,7 +166,10 @@
   <title>{home.title}</title>
   <meta name="description" content={home.metaDesc} />
 </svelte:head>
-
+<SvelteSeo
+  openGraph={{ title: what.title, description: what.metaDesc, 
+    url: 'https://www.gohere.tech', 
+    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/3d-logo.png', alt: 'goHere® Logo - Mixed Reality - Augment Your Reality™' }] }} />
 <nav style="position:fixed; top:0;">
   <a class="logo_link" href="." on:click={closeMenu}>
     <div class="logo">
