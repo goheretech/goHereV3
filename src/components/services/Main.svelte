@@ -171,12 +171,6 @@
     padding-bottom: 18px;
   }
 
-  h4 {
-    font-size: 80px;
-    padding-bottom: 20px;
-    line-height: 1;
-  }
-
   .number {
     position: absolute;
     top: 40px;

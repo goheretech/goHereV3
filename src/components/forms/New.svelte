@@ -56,7 +56,7 @@
       }
 
       if (numE == 0) {
-        err = "Unknown Error.  Please call 305.999.5595 or try again later.";
+        err = "Unknown Error.  Please call 305.999.5595.";
       }
     }
   }
