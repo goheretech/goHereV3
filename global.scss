@@ -22,6 +22,12 @@ $break-tablet: 1168px;
 
 
 
+h1,
+h2 {
+    font-family: 'Righteous',
+        cursive;
+}
+
 body::before {
     content: "";
     position: fixed;
@@ -38,6 +44,7 @@ body::before {
     margin: 0;
     padding: 0;
     font-family: 'Abel', sans-serif;
+    // font-family: 'Righteous', cursive;
 
 }
 
@@ -182,7 +189,8 @@ section {
         line-height: 110%;
         margin-bottom: 1rem;
         margin-bottom: 30px;
-
+        font-family: 'Righteous',
+            cursive;
         text-align: center;
 
         @media (max-width: $break-tablet) {
