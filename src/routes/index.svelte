@@ -169,7 +169,7 @@
 <SvelteSeo
   openGraph={{ title: home.title, description: home.metaDesc, 
     url: 'https://www.gohere.tech', 
-    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/3d-logo.png', alt: 'goHere® Logo - Mixed Reality - Augment Your Reality™' }] }} />
+    type: 'website', images: [{ url: 'https://gohere.ghost.io/content/images/2021/02/3d-logo.png', alt: 'goHere® Logo - Mixed Reality - Augment Your Reality™' }] }} />
 <nav style="position:fixed; top:0;">
   <a class="logo_link" href="." on:click={closeMenu}>
     <div class="logo">

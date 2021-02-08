@@ -27,7 +27,7 @@
 <SvelteSeo
   openGraph={{ title: work.title, description: work.metaDesc, 
     url: 'https://www.gohere.tech/work', 
-    type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mr-engine.jpg', alt: 'goHere® Portfolio' }] }} />
+    type: 'website', images: [{ url: 'https://gohere.ghost.io/content/images/size/w1600/2021/02/mr-engine2-2.jpg', alt: 'goHere® Portfolio' }] }} />
 <TransitionWrapper>
   <Hero heading={work.h1} headingSub={work.h1Sub} />
 
