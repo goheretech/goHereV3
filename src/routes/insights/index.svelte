@@ -45,7 +45,7 @@
 </svelte:head>
 
 <SvelteSeo
-  openGraph={{ title: insights.title, description: insights.metaDesc, url: 'https://www.gohere.tech/insights', type: 'website', images: [{ url: 'https://www.gohere.tech/images/seo/mixed_reality_insights.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
+  openGraph={{ title: insights.title, description: insights.metaDesc, url: 'https://www.gohere.tech/insights', type: 'website', images: [{ url: 'https://gohere.ghost.io/content/images/size/w1600/2021/02/cafe-menu-mixed-reality-optimized-3.jpg', alt: 'goHere Mixed Reality Insights' }] }} />
 
 <!-- <TransitionWrapper> -->
 <Hero heading={insights.h1} headingSub={insights.h1Sub} />

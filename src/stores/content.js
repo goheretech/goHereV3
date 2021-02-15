@@ -194,7 +194,6 @@ export const tags = [
     'brand equity',
     'virtual reality',
     'augmented reality',
-    'problem solving',
     'web development',
     'ui/ux',
     'customer experience',
