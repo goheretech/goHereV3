@@ -17,6 +17,7 @@
   import { insights } from "./../../stores/content.js";
   import Hero from "./../../components/Hero.svelte";
   import TransitionWrapper from "./../../components/TransitionWrapper.svelte";
+  import PostPageBuilder from "./../../components/PostPageBuilder.svelte";
   import Section from "./../../components/Section.svelte";
   import Post from "./../../components/Post.svelte";
   import CTA from "./../../components/CTA.svelte";
@@ -34,24 +35,8 @@
   //   loaded.set(true);
   // });
 
-  onMount(() => {
-    loaded.set(true);
-  });
+  loaded.set(true);
 </script>
-
-<style>
-  .post_holder {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3vw 2vw;
-  }
-
-  @media (max-width: 1068px) {
-    .post_holder {
-      flex-wrap: wrap;
-    }
-  }
-</style>
 
 <svelte:head>
   <title>{insights.title}</title>
@@ -68,10 +53,7 @@
 {#each insights.section as section}
   <Section {...section} />
 {/each}
-<div class="post_holder">
-  {#each posts as postdata}
-    <Post {postdata} />
-  {/each}
-</div>
+<PostPageBuilder {posts} />
+
 <CTA extra={insights.cta} />
 <!-- </TransitionWrapper> -->

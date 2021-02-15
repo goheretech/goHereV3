@@ -1,5 +1,6 @@
 <script>
   export let postdata;
+  export let type;
   import { onMount } from "svelte";
   let postedOn = new Date(postdata.published_at);
   var readingTimeInMinutes;
@@ -32,7 +33,14 @@
     padding: 10px;
     margin: 1vw;
     flex-shrink: 1;
-    width: 22.5%;
+    width: 31%;
+  }
+
+  .type2 {
+    width: 100%;
+  }
+  .type3 {
+    width: 47.5%;
   }
 
   h2 {
@@ -52,6 +60,19 @@
     background-size: cover;
   }
 
+  .type2 .img {
+    height: 400px;
+    min-width: 70%;
+    width: 60%;
+  }
+  .horz {
+    display: flex;
+  }
+
+  .texthold {
+    padding-left: 50px;
+  }
+
   @media (max-width: 1068px) {
     .article {
       width: 100%;
@@ -65,13 +86,43 @@
   }
 </style>
 
-<div class="article">
-  <a rel="prefetch" href="/insights/{postdata.slug}">
-    <div class="img" style="background-image:url({postdata.feature_image})" />
-    <h2>{postdata.title}</h2>
-    <h3>{date} | {readingTimeInMinutes} MIN READ</h3>
-    <span class="content" id="content">
-      {@html postdata.custom_excerpt}
-    </span>
-  </a>
-</div>
+{#if type == 1}
+
+  <div class="article">
+    <a rel="prefetch" href="/insights/{postdata.slug}">
+      <div class="img" style="background-image:url({postdata.feature_image})" />
+      <h2>{postdata.title}</h2>
+      <h3>{date} | {readingTimeInMinutes} MIN READ</h3>
+      <span class="content" id="content">
+        {@html postdata.custom_excerpt}
+      </span>
+    </a>
+  </div>
+{/if}
+
+{#if type == 2}
+  <div class="article type2">
+    <a rel="prefetch" href="/insights/{postdata.slug}" class="horz">
+      <div class="img" style="background-image:url({postdata.feature_image})" />
+      <div class="texthold">
+        <h2>{postdata.title}</h2>
+        <h3>{date} | {readingTimeInMinutes} MIN READ</h3>
+        <span class="content" id="content">
+          {@html postdata.custom_excerpt}
+        </span>
+      </div>
+    </a>
+  </div>
+{/if}
+{#if type == 3}
+  <div class="article type3">
+    <a rel="prefetch" href="/insights/{postdata.slug}">
+      <div class="img" style="background-image:url({postdata.feature_image})" />
+      <h2>{postdata.title}</h2>
+      <h3>{date} | {readingTimeInMinutes} MIN READ</h3>
+      <span class="content" id="content">
+        {@html postdata.custom_excerpt}
+      </span>
+    </a>
+  </div>
+{/if}

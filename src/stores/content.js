@@ -71,7 +71,7 @@ export const who = {
             title:
                 '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> for Service.',
             p:
-                '<b>Powerful Experiences. By Design.</b> <br> We’re a team of innovative consultants and creators with a passion for excellence, an eye for opportunity, and a love of service. Sharing our talents with others to make a positive impact is what drives us.',
+                'We’re a team of innovative consultants and creators with a passion for excellence, an eye for opportunity, and a love of service. Sharing our talents with others to make a positive impact is what drives us.',
             sub: 'nerd alert',
             button: 'Envision With Us!',
             buttonHref: 'cta',
@@ -97,7 +97,7 @@ export const what = {
             title:
                 '<span style="font-family:Arial;">go<b style="font-family:Arial;">Here</b></span> for Results',
             p:
-                '<b>Technology that has you covered.</b><br> Build. Grow. Optimize. Impress. Solutions to drive business. We design and build custom technology solutions that bring structure, growth, and peace of mind.',
+                'Build. Grow. Optimize. Impress. Solutions to drive business. We design and build custom technology solutions that bring structure, growth, and peace of mind.',
             sub: 'masterminds',
             button: '',
             buttonHref: '',

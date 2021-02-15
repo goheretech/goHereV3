@@ -48,7 +48,7 @@ const employees = [
         nick: 'ET',
         bioStart: '<b>Fluent in machine.</b>',
         bio:
-            'As a graduate of Michigan State Broad College of Business, Johnny is our translator between people and machines.<br><br>Johnny’s solution-oriented mindset allows him to rise to every occasion and handle it with a calm, unfazed energy. His aptitude for human psychology combined with his fluency in communicating with software systems enables him to look beyond data and best practices to create common sense, customized action plans that get results.',
+            'As a graduate of Michigan State Broad College of Business, Johnny is our translator between people and machines.<br><br>Johnny’s aptitude for human psychology combined with his fluency in communicating with software systems enables him to look beyond data and best practices to create common sense, customized action plans that get results.',
         picture: '/img/headshots/johnny.png',
         flipped: false,
     },
