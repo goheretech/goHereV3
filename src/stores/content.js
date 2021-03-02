@@ -5,7 +5,7 @@ export const global = {
     email: 'help@gohere.tech',
 };
 export const home = {
-    title: 'goHere® | Mixed Reality Consultants | Augment Your Reality™',
+    title: 'goHere® - Digital Transformation Consultants',
     metaDesc:
         'Fueled by creativity. Driven by excellence. We are a creative technology agency specializing in Mixed Reality and Augmented Reality.',
     h1: 'Create',
