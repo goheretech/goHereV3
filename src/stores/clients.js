@@ -81,18 +81,6 @@ const clients = [
         gif: '/gif/tristar.gif',
     },
     {
-        slug: 'alexanders',
-        name: 'Alexanders of Door County',
-        desc:
-            '<p>Alexander’s provides the best casual fine dining experience in Door County.</p><p> Northern Wisconsin’s spotty internet coverage has long kept customers from accessing Alexander’s full web presence. Using concise code, we drastically cut their load times without compromising design.  </p>',
-        shortD: 'The best casual fine dining experience in Door County',
-        services: ['UX', 'Visual Design', 'Branding', 'Creative Direction'],
-        year: '2019',
-        url: 'https://alexandersofdoorcounty.com',
-        img: '/img/clients/alex.png',
-        gif: '/gif/alexanders.gif',
-    },
-    {
         slug: 'bosman-chiro',
         name: 'Bosman Chiropractic',
         desc:
