@@ -61,7 +61,7 @@ export const home = {
     ],
 };
 export const who = {
-    title: 'About goHere® | Experts in Mixed Reality',
+    title: 'About goHere® | Leaders in Extended Reality Strategy',
     metaDesc:
         'Team of innovative consultants and creators focused on Mixed Reality and Augmented Reality solutions for the Industry 4.0 era.',
     h1: 'Creative',

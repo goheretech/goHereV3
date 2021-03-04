@@ -45,25 +45,6 @@ const clients = [
         gif: '/gif/barnes.gif',
     },
     {
-        slug: 'plm',
-        name: 'PLM Paving',
-        desc:
-            '<p>One of the largest concrete and asphalt companies in Wisconsin, PLM Paving has always had an impeccable reputation for their commitment to service with integrity.</p><p> goHere launched PLM into the age of the internet with a full web development package; we created a flawless lead generation system, designed a beautiful website, and developed a brand identity that reflects what makes them stand out in their industry: craftsmanship, quality, pride, and high standards.</p>',
-        shortD:
-            'A new vision for 2019. With over 35 years of experience, PLM is one of the largest concrete and asphalt maintenance companies in Wisconsin.',
-        services: [
-            'UI/UX',
-            'Branding',
-            'SEO',
-            'Marketing',
-            'Creative Direction',
-        ],
-        year: '2019',
-        url: 'https://plmpaving.com',
-        img: '/img/clients/plm.png',
-        gif: '/gif/plm.gif',
-    },
-    {
         slug: 'major-goolsbys',
         name: "Major Goolsby's",
         desc:
