@@ -11,17 +11,6 @@ const employees = [
         flipped: false,
     },
     {
-        name: 'Meghan Breinig',
-        title: 'Lead Growth Envisioneer',
-        nick: 'The Meg',
-        bioStart:
-            '<b>Power. Under. Pressure.</b><br/> <br>Meghan is one of those <b>unstoppable</b> people who can rise to every occasion and handle it with a calm, unphased <b>energy.</b>',
-        bio:
-            'She has <b>expertise</b> in engineering, business consulting and development, project management, teaching, marketing, and entrepreneurship. You name it, she’s mastered it. Meghan’s solution oriented mindset and uplifting attitude drive everyone around her to up their game, reach the next level, and think outside the box.',
-        picture: '/img/headshots/meg.png',
-        flipped: true,
-    },
-    {
         name: 'Corey "Jack" LeMay',
         title: 'Lead Technology Envisioneer',
         nick: 'Wunder Boy',
@@ -29,6 +18,17 @@ const employees = [
         bio:
             'Give Jack a computer and a few weeks, and he’ll master the most advanced software programs--and even extend their known capabilities. <br><br> The best part about Jack: he’s equally in tune with user experience as he is with technical engineering, making his already extraordinary builds that much better. His creative energy and passion for new ideas is contagious. When he’s not creating beautiful tech solutions for our clients, he’s busy inventing with the most cutting edge technology. We’re always eagerly awaiting his next beautiful, <b>incredible innovation.</b>',
         picture: '/img/headshots/jack.png',
+        flipped: true,
+    },
+    {
+        name: 'Ben McLeod',
+        title: 'Strategic Partnership Envisioneer',
+        nick: 'VALLEY BEN',
+        bioStart:
+            '<b>Value-oriented. Data driven.</b>',
+        bio:
+            'Ben deeply understands the dynamics of rapidly-changing markets and has an innate drive to serve people in excellence. These qualities--along with his Vanderbilt education in economics and finance--have given him an impressive track record of creating significant financial returns for his clients. He is ever focused on adding value to our strategic partners through sound wisdom and leadership that drives them ever towards their long-term goals and objectives.',
+         picture: '/img/headshots/ben.png',
         flipped: false,
     },
 

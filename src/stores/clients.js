@@ -26,6 +26,43 @@ const clients = [
         gif: 'gif/hofp.gif',
     },
     {
+        slug: 'hop-ecom',
+        name: 'HOPe Clothing Line',
+        desc: '<p>The House of Providence clothing line is a beautiful, 100% ethically sourced brand that benefits children in foster care. HoP is revolutionizing outcomes for these children who have been through so much pain and suffering, giving them hope, healing, and helping them leave the foster care system permanently through adoption.</p><p>We are honored to be able to partner with House of Providence on this project!</p>',
+            shortD:
+            'A new vision for 2019. With over 35 years of experience, PLM is one of the largest concrete and asphalt maintenance companies in Wisconsin.',
+        services: [
+            'Web, Desktop, and Mobile Application',
+            "Ecommerce Setup",
+            '',
+            'UI/UX',
+            'Brand Identity',
+            'Creative Direction',
+            'Digital Marketing',
+        ],
+        year: '2021',
+        url: 'https://thehofp.org/shop',
+        img: '/img/clients/plm.png',
+        gif: '/gif/hope.gif',
+    },{
+        slug: 'goherear',
+        name: 'goHere AR',
+        desc:
+            '<p>As computing moves from physical screens to spatial computing, goHere AR creates valuable, easy to use mixed reality applications both for enterprises already using mixed reality as well as forward thinking companies planning to implement it in preparation for consumer mixed reality.</p>',
+             shortD:
+            'A new vision for 2019. With over 35 years of experience, PLM is one of the largest concrete and asphalt maintenance companies in Wisconsin.',
+        services: [
+            'Web, Desktop, and Mobile Application',
+            'UI/UX',
+            'Brand Identity',
+            'Creative Direction',
+            'Digital Marketing',
+        ],
+        year: '2021',
+        url: 'https://mixyourreality.com',
+        img: '/img/clients/plm.png',
+        gif: '/gif/mym.gif',
+    },{
         slug: 'barnes',
         name: 'Barnes Homebuilders',
         desc:
@@ -43,6 +80,24 @@ const clients = [
         url: 'https://barneshb.com',
         img: '/img/clients/plm.png',
         gif: '/gif/barnes.gif',
+    },{
+        slug: 'reidchiro',
+        name: 'Reid Chiropractic',
+        desc:
+            '<p>Dr. Reid is among the top 10 nutritionists in the state of Michigan, and his patients benefit tremendously from his wealth of knowledge and healing hands. Practicing for over 30 years, he continues to educate himself on new discoveries in his field so he’s always on the cutting edge of healthcare for his patients.</p><p>goHere created a brand to represent the level of excellence and care he provides for his patients. </p>',
+             shortD:
+            'A new vision for 2019. With over 35 years of experience, PLM is one of the largest concrete and asphalt maintenance companies in Wisconsin.',
+        services: [
+            'Web, Desktop, and Mobile Application',
+            'UI/UX',
+            'Brand Identity',
+            'Creative Direction',
+            'Digital Marketing',
+        ],
+        year: '2011',
+        url: 'https://reidchiropractic.com',
+        img: '/img/clients/plm.png',
+        gif: '/gif/reid.gif',
     },
     {
         slug: 'major-goolsbys',
@@ -55,6 +110,17 @@ const clients = [
         url: 'https://majorgoolsbys.com',
         img: '/img/clients/majors.png',
         gif: '/gif/major.gif',
+    },{
+        slug: 'tristar-wellness',
+        name: 'Tristar Wellness',
+        desc:
+            '<p>Tristar is an extremely versatile cross between a typical doctor’s office and a wellness center. Specializing in pain, addiction, and internal medicine, they emphasize holistic medicine while remaining on the cutting edge of modern medicine.</p><p>We took their web presence to the next level with a beautiful new design, flawless search engine compatibility, and reimagined public relations strategy.</p>',
+        shortD: 'The premier chiropractic and nutrition center in Tulsa, OK.',
+        services: ['UX', 'Visual Design', 'Branding', 'Creative Direction'],
+        year: '2018',
+        url: 'https://tristarwell.com',
+        img: '/img/clients/divine.png',
+        gif: '/gif/tristar.gif',
     },
     {
         slug: 'divine-chiro',
@@ -68,18 +134,7 @@ const clients = [
         img: '/img/clients/divine.png',
         gif: '/gif/divine.gif',
     },
-    {
-        slug: 'tristar-wellness',
-        name: 'Tristar Wellness',
-        desc:
-            '<p>Tristar is an extremely versatile cross between a typical doctor’s office and a wellness center. Specializing in pain, addiction, and internal medicine, they emphasize holistic medicine while remaining on the cutting edge of modern medicine.</p><p>We took their web presence to the next level with a beautiful new design, flawless search engine compatibility, and reimagined public relations strategy.</p>',
-        shortD: 'The premier chiropractic and nutrition center in Tulsa, OK.',
-        services: ['UX', 'Visual Design', 'Branding', 'Creative Direction'],
-        year: '2018',
-        url: 'https://tristarwell.com',
-        img: '/img/clients/divine.png',
-        gif: '/gif/tristar.gif',
-    },
+    
     {
         slug: 'bosman-chiro',
         name: 'Bosman Chiropractic',

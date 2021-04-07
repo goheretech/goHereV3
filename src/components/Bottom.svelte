@@ -540,7 +540,7 @@
     padding: 20px 10vw 100px;
   }
   .call h2:first-child {
-    font-size: 21vw;
+    font-size: 15vw;
     color: #e4e4e4;
   }
   .call h2:last-child {
@@ -756,7 +756,7 @@
     }
 
     .call h2:first-child {
-      font-size: 25vw;
+      font-size: 19vw;
     }
     .call a {
       font-size: 15vw;
@@ -769,7 +769,7 @@
 
   <section class="hero">
     <!-- <button class="button ctaaa" on:click={displayCTA}>Let's Get Started</button> -->
-    <img class="astro" src="img/astro.png" alt="" />
+    <!-- <img class="astro" src="img/astro.png" alt="" /> -->
     <div class="text">
       <h3>Creative Vision</h3>
       <h1>

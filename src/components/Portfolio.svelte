@@ -12,7 +12,7 @@
 <style>
   img {
     max-height: 900px;
-    max-width: 25vw;
+    max-width: 350px;
   }
   .scroll_container {
     position: sticky;
