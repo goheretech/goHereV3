@@ -49,7 +49,7 @@
     "sapper": "^0.27.13",
     "svelte": "^3.23.0",
     "tailwindcss": "^1.4.6",
-    "three": "^0.114.0"
+    "three": "^0.137.0"
   },
   "main": "rollup.config.js",
   "repository": {
