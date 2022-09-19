@@ -11,7 +11,7 @@ const employees = [
         flipped: false,
     },
     {
-        name: 'Corey "Jack" LeMay',
+        name: 'Jack LeMay',
         title: 'Lead Technology Envisioneer',
         nick: 'Wunder Boy',
         bioStart: '<b>Problem solver extraordinaire.</b>',

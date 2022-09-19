@@ -144,6 +144,14 @@
   figure img {
     max-width: 100%;
   }
+
+  @media(max-width: 1168px)
+  {
+    h1
+    {
+      font-size:2.5rem;
+    }
+  }
 </style>
 
 <svelte:head>

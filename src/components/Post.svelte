@@ -77,6 +77,23 @@
     .article {
       width: 100%;
     }
+
+    .horz{
+      flex-direction:column;
+    }
+
+    .type2 .img{
+      width:100%;
+    }
+
+    .img{
+      height: 400px;
+    }
+
+    .texthold{
+    padding-left:0px;
+    }
+
   }
 
   .content {
