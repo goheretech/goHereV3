@@ -10,28 +10,28 @@
   let newP = 5;
   onMount(() => {
     b = document.getElementById("perc");
-    requestAnimationFrame(aniamteLoad);
+    // requestAnimationFrame(aniamteLoad);
     reload();
   });
 
-  $: if ($loaded == true) {
-    // alert("loaded");
-    show = false;
-  } else {
-    show = true;
-    // alert('its clsoed');
-  }
+  // $: if ($loaded == true) {
+  //   // alert("loaded");
+  //   show = false;
+  // } else {
+  //   show = true;
+  //   // alert('its clsoed');
+  // }
 
-  function aniamteLoad() {
-    if (newP < 80) {
-      newP += 1;
-    }
-    if (newP >= 80 && newP < 100) {
-      newP += 0.5;
-    }
-    b.style.width = newP + "%";
-    requestAnimationFrame(aniamteLoad);
-  }
+  // function aniamteLoad() {
+  //   if (newP < 80) {
+  //     newP += 1;
+  //   }
+  //   if (newP >= 80 && newP < 100) {
+  //     newP += 0.5;
+  //   }
+  //   b.style.width = newP + "%";
+  //   requestAnimationFrame(aniamteLoad);
+  // }
 
   function reload() {
     setTimeout(function() {
@@ -41,9 +41,9 @@
     }, 1000);
   }
 
-  function skipLoad() {
-    loaded.set(true);
-  }
+  // function skipLoad() {
+  //   loaded.set(true);
+  // }
 </script>
 
 <style>
@@ -109,7 +109,7 @@
     <div class="bar">
       <div id="perc" class="colorRotate" />
       {#if showButton == true}
-        <button id="bt" on:click={skipLoad}>Skip</button>
+        <!-- <button id="bt" on:click={skipLoad}>Skip</button> -->
       {/if}
     </div>
   </div>
