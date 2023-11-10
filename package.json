@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@sveltejs/svelte-scroller": "^2.0.6",
-    "@tryghost/content-api": "^1.4.13",
+    "@tryghost/content-api": "^1.11.19",
     "animejs": "^3.2.0",
     "compression": "^1.7.1",
     "howler": "^2.2.0",
